@@ -57,7 +57,7 @@ while(True):
     #         image_data = f.read()
     #         image_type = imghdr.what(f.name)
         
-    #     sender = "devshree.pravakar05@gmail.com" #set
+    #     sender = "" #set
     #     email_alert_disease(title,body,sender,image_data,result,image_type)
     #     time.sleep(10)
     key = cv2.waitKey(1)
