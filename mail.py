@@ -8,8 +8,8 @@ def email_alert_disease(subject, body, to, image_data, image_name, subtype):
     message['subject'] = subject
     message['to'] = to
 
-    user = 'devashree.pravakar05@gmail.com' #set
-    password = 'byuwyguukruwwvlt' #set
+    user = '' #set
+    password = '' #set
 
     message['from'] = user
     #attach image
@@ -28,8 +28,8 @@ def email_alert_temp_humid(subject, body, to):
     message['subject'] = subject
     message['to'] = to
     
-    user = 'devashree.pravakar05@gmail.com'
-    password = 'byuwyguukruwwvlt'
+    user = ''
+    password = ''
 
     message['from'] = user
 
